@@ -1,0 +1,99 @@
+body {
+  background-color: rgb(240, 242, 245);
+}
+
+h1 {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0;
+}
+
+#postField {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1px;
+  border-radius: 10px;
+  box-shadow: 0 1.9px 2.5px rgba(0, 0, 0, 0.057),
+    0 5px 6.1px rgba(0, 0, 0, 0.076), 0 10.1px 11.4px rgba(0, 0, 0, 0.086),
+    0 19.2px 19.8px rgba(0, 0, 0, 0.092), 0 38.4px 34.8px rgba(0, 0, 0, 0.1),
+    0 101px 74px rgba(0, 0, 0, 0.13);
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+}
+
+#postContent {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  height: 2em;
+  font-size: large;
+}
+
+#newsfeed > div {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 1px;
+  border-radius: 10px;
+  box-shadow: 0 1.9px 2.5px rgba(0, 0, 0, 0.057),
+    0 5px 6.1px rgba(0, 0, 0, 0.076), 0 10.1px 11.4px rgba(0, 0, 0, 0.086),
+    0 19.2px 19.8px rgba(0, 0, 0, 0.092), 0 38.4px 34.8px rgba(0, 0, 0, 0.1),
+    0 101px 74px rgba(0, 0, 0, 0.13);
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+}
+
+#newsfeed div {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 1px;
+  width: 70%;
+}
+
+#newsfeed div img {
+  width: 70%;
+}
+
+.username {
+  position: absolute;
+  margin: 0.5em;
+  font-size: 1.5em;
+  font-weight: bold;
+  top: 0;
+}
+
+.content {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.title {
+  text-align: center;
+  color: #f1f1f1;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0.5em auto;
+  padding: 5px;
+  background-color: rgb(71, 103, 170);
+  border-radius: 10px;
+  width: 70%;
+}
+
+#autoReload {
+  position: absolute;
+  color: #f1f1f1;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0.5em;
+  right: 1em;
+  padding: 7px;
+  background-color: rgb(71, 103, 170);
+  border-radius: 10px;
+}
